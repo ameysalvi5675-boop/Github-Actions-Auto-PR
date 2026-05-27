@@ -70,7 +70,7 @@ jobs:
           fi
           echo "description_valid=true" >> $GITHUB_OUTPUT
 
-      - name: Lint Code (if applicable)
+      - name: Lint Code (if applicable) #new code
         id: lint
         continue-on-error: true
         run: |
