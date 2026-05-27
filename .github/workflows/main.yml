@@ -57,7 +57,7 @@ jobs:
             exit 1
           fi
           echo "✅ PR title is valid"
-          echo "title_valid=true" >> $GITHUB_OUTPUT
+          echo "title_valid=true" >> $GITHUB_OUTPUT 
 
       - name: Validate PR Description
         id: validate_description
